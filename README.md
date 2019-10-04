@@ -19,6 +19,12 @@ Add the plugin to `project/plugins.sbt`:
 addSbtPlugin("com.lightbend.sbt" % "sbt-java-formatter" % "0.4.3")
 ```
 
+And run:
+
+```
+sbt javafmt test:javafmt
+```
+
 Use [![scaladex-badge][]][scaladex] for sbt 1.x, and `0.2.0` for previous versions of sbt.
 
 Configuration
